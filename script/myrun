@@ -1,0 +1,5 @@
+vcs -sverilog +acc +vpi \
+    -timescale=1ns/1ns \
+    -f fifo_filelist.f
+
+./simv
