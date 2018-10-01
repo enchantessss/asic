@@ -1,0 +1,18 @@
+For new creat repositories
+step1: git init
+step2: touch Readme
+       git add Readme
+       git commit -m 'add readme file'
+step3: git remote add origin https://github.com/enchantessss/xx.git
+step4: git push origin master
+
+For exist repositories
+step1: git clone https://github.com/enchantessss/xx.git
+step2: git add Readme_new
+       git commit -m 'add new readme file'
+
+Others Command:
+git remote rm origin
+git pull origin master
+git status
+       
